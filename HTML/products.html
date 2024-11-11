@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Espresso - Products</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #8B4513;
+            color: #fff;
+        }
+        
+        header {
+            background-color: #2C1810;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .logo {
+            max-width: 200px;
+        }
+        
+        nav {
+            background-color: #4A2511;
+            padding: 15px 0;
+            text-align: center;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+        }
+        
+        nav a:hover {
+            background-color: #6B3516;
+        }
+        
+        main {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            margin-bottom: 100px;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: rgba(255, 255, 255, 0.1);
+            margin-top: 20px;
+        }
+        
+        th, td {
+            padding: 15px;
+            text-align: left;
+            border: 1px solid #2C1810;
+        }
+        
+        th {
+            background-color: #2C1810;
+        }
+        
+        .product-image {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+        
+        .product-link {
+            color: #FFD700;
+            text-decoration: none;
+        }
+        
+        .product-link:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            background-color: #2C1810;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" alt="Digital Espresso Logo" class="logo">
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="branches.html">Branches</a>
+        <a href="aboutus.html">About</a>
+    </nav>
+    
+    <main>
+        <h1>Our Coffee Selection</h1>
+        <table>
+            <tr>
+                <th>Image</th>
+                <th>Product</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td><img src="espresso.jpg" alt="Classic Espresso" class="product-image"></td>
+                <td><a href="espresso.html" class="product-link">Classic Espresso</a></td>
+                <td>Rich and bold traditional espresso shot</td>
+                <td>$3.99</td>
+            </tr>
+            <tr>
+                <td><img src="americano.jpg" alt="Americano" class="product-image"></td>
+                <td><a href="americano.html" class="product-link">Americano</a></td>
+                <td>Espresso diluted with hot water</td>
+                <td>$3.49</td>
+            </tr>
+        </table>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Digital Espresso. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
